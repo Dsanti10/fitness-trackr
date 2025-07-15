@@ -19,7 +19,7 @@ referencing the `token` from `AuthContext` to provide different features for use
 logged in.
 
 - On the "activities" page, all users can see a list of all activities from the API,
-  even if they are not logged in.
+  even if they are not logged in. [X]
 - `useQuery` is used to fetch the activities from the API.
 - The `token` from `AuthContext` is used to check if a user is logged in.
 - If a user is logged in, they will additionally see a "delete" button next to each
